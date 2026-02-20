@@ -2,6 +2,10 @@
 
 A professional system monitoring dashboard built with Python + Flask.
 
+## Live Demo
+Currently live at: **[https://mackintoshed-lorna-overguilty.ngrok-free.dev](https://mackintoshed-lorna-overguilty.ngrok-free.dev)**
+*(Note: This link only works while the host PC is running the Ngrok tunnel).*
+
 ## Setup
 
 ```bash
