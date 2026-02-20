@@ -15,6 +15,15 @@ python app.py
 
 Then open: http://localhost:5000
 
+### Access over the internet (Ngrok)
+To share your dashboard over the internet:
+1. Keep the `python app.py` server running.
+2. In a new terminal, start the Ngrok tunnel:
+```bash
+.\ngrok http 5000
+```
+3. Copy the `Forwarding` URL provided by Ngrok (e.g. `https://xxxx-xxx.ngrok-free.app`) and share it!
+
 ## Features
 - Live CPU & RAM gauges with animated arc display
 - Real-time sparkline history graphs (60-second window)
